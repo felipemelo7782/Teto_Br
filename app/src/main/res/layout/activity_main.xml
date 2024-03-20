@@ -11,6 +11,92 @@
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal"
+        android:background="@drawable/background_main"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_teto"
+            android:layout_marginBottom="150dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="200dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Vamos começar?"
+                android:textSize="25sp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="Entrar com minha conta"
+                android:textSize="20sp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginHorizontal="25dp">
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="2dp"
+                    android:background="@color/white"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Ou"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="2dp"
+                    android:background="@color/white"
+                    />
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="Criar uma Conta"
+                android:textSize="22sp"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Sobre nós"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="250dp"
         android:padding="8dp"
         android:gravity="center"
