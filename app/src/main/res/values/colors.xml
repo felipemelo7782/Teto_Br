@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Cores do tema -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Cor principal do aplicativo -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- Cor escura primária, geralmente usada na barra de status -->
+    <color name="colorAccent">#FF4081</color> <!-- Cor de destaque/acento -->
+
+    <!-- Outras cores comuns -->
+    <color name="colorControlNormal">#BDBDBD</color> <!-- Cor padrão dos controles -->
+    <color name="colorControlActivated">#FF4081</color> <!-- Cor dos controles ativados (como um botão pressionado) -->
+    <color name="colorControlHighlight">#BDBDBD</color> <!-- Cor de destaque dos controles -->
+    <color name="colorButtonNormal">#FF4081</color> <!-- Cor padrão dos botões -->
+    <color name="colorSwitchThumbNormal">#FFFFFF</color> <!-- Cor padrão do polegar de um switch -->
+
+    <!-- Cores definidas por você -->
     <color name="black">#FF000000</color>
     <color name="blackSecondary">#333333</color>
     <color name="white">#FFFFFFFF</color>
@@ -8,8 +20,7 @@
     <color name="blue">#0092DF</color>
     <color name="blueSecondary">#0088DA</color>
     <color name="yellow">#FDC534</color>
-    <color name="laranja">#EA6D4F</color>
-    <color name="rosa">#E54466</color>
-    <color name="roxo">#944B9B</color>
-
+    <color name="orange">#EA6D4F</color>
+    <color name="rose">#E54466</color>
+    <color name="lilas">#944B9B</color>
 </resources>
